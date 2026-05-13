@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://riadelomor.com/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://riadelomor.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://riadelomor.com/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://riadelomor.com/?lang=ar"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://riadelomor.com/"/>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://riadelomor.com/?lang=en</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://riadelomor.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://riadelomor.com/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://riadelomor.com/?lang=ar"/>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://riadelomor.com/?lang=ar</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://riadelomor.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://riadelomor.com/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://riadelomor.com/?lang=ar"/>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+</urlset>

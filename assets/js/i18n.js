@@ -49,6 +49,11 @@ async function setLanguage(lang) {
 
 // Initialize
 document.addEventListener('DOMContentLoaded', () => {
-    const savedLang = localStorage.getItem('riad_lang') || 'fr';
-    setLanguage(savedLang);
+    const urlParams = new URLSearchParams(window.location.search);
+    const urlLang = urlParams.get('lang');
+    const savedLang = localStorage.getItem('riad_lang');
+    
+    // Priority: URL parameter > LocalStorage > Default (fr)
+    const lang = (urlLang && ['fr', 'en', 'ar'].includes(urlLang)) ? urlLang : (savedLang || 'fr');
+    setLanguage(lang);
 });
